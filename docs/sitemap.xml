@@ -3,38 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://slamice.github.io/works/</loc>
+    <loc>https://slamice.github.io/rafi-zabor/works/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://slamice.github.io/other/</loc>
+    <loc>https://slamice.github.io/rafi-zabor/other/</loc>
   </url>
   
   <url>
-    <loc>https://slamice.github.io/categories/</loc>
+    <loc>https://slamice.github.io/rafi-zabor/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://slamice.github.io/</loc>
-    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://slamice.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://slamice.github.io/tags/works/</loc>
+    <loc>https://slamice.github.io/rafi-zabor/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://slamice.github.io/categories/works/</loc>
+    <loc>https://slamice.github.io/rafi-zabor/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://slamice.github.io/rafi-zabor/tags/works/</loc>
+    <lastmod>2016-10-02T22:55:05-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://slamice.github.io/rafi-zabor/categories/works/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>

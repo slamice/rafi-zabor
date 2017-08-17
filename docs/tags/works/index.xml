@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Works on Rafi Zabor</title>
-    <link>https://slamice.github.io/tags/works/</link>
+    <link>https://slamice.github.io/rafi-zabor/tags/works/</link>
     <description>Recent content in Works on Rafi Zabor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
     
-	<atom:link href="https://slamice.github.io/tags/works/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slamice.github.io/rafi-zabor/tags/works/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Works</title>
-      <link>https://slamice.github.io/works/</link>
+      <link>https://slamice.github.io/rafi-zabor/works/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://slamice.github.io/works/</guid>
+      <guid>https://slamice.github.io/rafi-zabor/works/</guid>
       <description></description>
     </item>
     
