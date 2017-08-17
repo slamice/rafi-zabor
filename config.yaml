@@ -24,4 +24,4 @@ publishDir: "docs"
   name: "works"
   weight: 100
   identifier: "works"
-  url: "/rafi-zabor/works/"
+  url: "/works/"
