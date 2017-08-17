@@ -1,0 +1,28 @@
+baseURL = "https://slamice.github.io/"
+languageCode = "en-US"
+title = "Rafi Zabor"
+disqusShortname = ""
+theme = "sustain"
+publishDir = "docs"
+
+[params]
+  avatar = "profile.png"
+  author = "Rafi Zabor"
+  description = "Works and Literary Events with Rafi"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params.email]
+  Email         = "rafzab297@gmail.com"
+
+## Main Menu
+[[menu.main]]
+  name = "works"
+  weight = 100
+  identifier = "works"
+  url = "/rafi-zabor/works/"

@@ -1,0 +1,43 @@
+<section id="works">
+  <div class="container">
+    <strong><h1>{{ .Site.Data.works.name }}<noframes></noframes></h1></strong>
+    <div class="panel panel-default">
+      <div class="panel-body">
+
+      {{ range $i, $el := .Site.Data.works.source }}
+        <div style="padding: 20px 20px 20px 20px; height:100%; width: 100%; display: inline-block;">
+          <h5>
+              <img src="{{ $.Site.BaseURL }}img/{{ .pic }}" alt="{{ $el.title }}" style="float:left; padding-right: 20px; width: 50%; height: auto;">
+                <h3>{{ $el.title }}</h3>
+                <h10><a href="{{ $el.link }}">From Publisher</a></h10><br/>
+                <h10><a href="{{ $el.amazon }}">On Amazon</a></h10>
+                </img>
+              <div style="width: 50%; float:right; height: auto;">
+                
+
+                <p style="padding-top: 20px;">{{ $el.description }}</p>
+                <br/>
+
+                <h6 style="font-style: italic;">{{ $el.review1 }}</h6>
+                <h10><strong>{{ $el.reviewer1 }}</strong></h10><br/><br/>
+                
+                <h6 style="font-style: italic;">{{ $el.review2 }}</h6>
+                <h10><strong>{{ $el.reviewer2 }}</strong></h10>
+                
+                <h6 style="font-style: italic;">{{ $el.review3 }}</h6>
+                <h10><strong>{{ $el.reviewer3 }}</strong></h10>
+              </div>
+            <br/><br/>
+          </h5>
+        </div>
+      {{ end }}
+      <strong><h1 style="text-align: center;">Articles<noframes></noframes></h1></strong><br/>
+      <h4><a href="http://www.wordswithoutborders.org/article/of-the-tree-and-its-four-birds">Of the Tree and its Four Birds ~ Thoughts on Ibn Arabi</a></h4><br/>
+      <h4><a href="https://www.arts.gov/writers-corner/bio/rafi-zabor">National Endownment for The Arts ~ Writer's Corner</a></h4><br/>
+      <h4><a href="http://davidbreskin.com/magazines/1-interviews/ronald-shannon-jackson/">Interview with Ronald Shannon Jackson: The Future of Jazz Drumming</a></h4><br/>
+      <h4><a href="http://taintradio.org/author/rafizabor/">taintradio ~ Musings on Music</a></h4><br/>
+      </div>
+    </div>
+  </div>
+
+</section>

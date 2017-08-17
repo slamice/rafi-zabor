@@ -1,0 +1,20 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <h3>My name is <strong>{{ .Site.Params.author }}</strong>, an award winning author.</h3>
+        <h3>Please feel free to take a look at my <a href="{{ .Site.BaseURL }}works/"> work</a></h3>
+        <h3>or any upcoming <a href="https://www.meetup.com/Do-the-Write-Thing-with-Rafi-Zabor/events/242282132/">events / workshops</a>.</h3>
+        <h3>You may contact me through my <a href="mailto:{{ .Site.Params.Email }}">email</a>.</h3>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>
